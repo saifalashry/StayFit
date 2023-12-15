@@ -1,0 +1,100 @@
+
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3 {
+
+padding-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+
+
+
+/* pricing-Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-colum {
+  padding: 50px 17px;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.price-text{
+  padding-bottom: 10px;
+   margin-bottom: 20px;
+}
+
+#button{
+  background-color:#11bcf4;
+}
+
+.pricingplan-label{
+  position: absolute;
+  right: 0;
+  background: #11bcf4;
+  top: 0;
+  clip-path: polygon(100% 100%, 0 0, 100% 0);
+  height: 70px;
+  width: 100px;
+
+}
+.pricingplan-label span {
+  transform: rotate(35deg);
+  position: relative;
+  display: inherit;
+  padding: 0px 0 0 30px;
+  color: #ffffff;}
+
+  .container{
+    /* background-color: #0d1f35; */
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-left: 100px;
+
+  }
+  .pt-4, .py-4 {
+    padding-top: 1.5rem !important;
+}
+
+footer{
+    background-color:#05184c;
+    text-align: left;
+
+}
+br{
+  border-color: gray;
+}
+.background2{
+
+        min-height: 50vh;
+        background-image:linear-gradient( rgba(38, 58, 235, 0.4) ,rgba(73, 15, 233, 0.4) )  , url(../images/10.jpg);
+        background-position: center;
+        background-size: cover;
+}
